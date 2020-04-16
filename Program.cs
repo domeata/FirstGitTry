@@ -16,6 +16,8 @@ namespace FirstGitTry
             int solution = lenghta + lenghtb;
 
             Console.WriteLine(solution);
+
+            Console.WriteLine("IDK How many changes i made already");
         }
     }
 }

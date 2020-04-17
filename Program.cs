@@ -18,6 +18,19 @@ namespace FirstGitTry
             Console.WriteLine(solution);
 
             Console.WriteLine("IDK How many changes i made already");
+
+            Console.Clear();
+
+            Console.WriteLine("Geben Sie eine Zahl zu addieren an:");
+            double firstnumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Geben Sie die zweite Zahl ein:");
+            double secondnumber = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(firstnumber + secondnumber);
+
+            Console.ReadKey();
+
+            //End of this little programm 
         }
     }
 }

@@ -4,10 +4,9 @@ namespace FirstGitTry
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
 
             Console.WriteLine("Second Change");
 
@@ -31,6 +30,15 @@ namespace FirstGitTry
             Console.ReadKey();
 
             //End of this little programm 
+            Console.Clear();
+            double a = 10;
+            double b = 20;
+            double solution2 = a / b;
+            Console.WriteLine(solution2);
+            Console.ReadKey();
+            //END OF DIVISION
         }
+
+
     }
 }
